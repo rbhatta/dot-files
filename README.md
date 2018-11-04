@@ -1,2 +1,2 @@
 # dot-files
-Dev Env Configs
+Shell Configurations
