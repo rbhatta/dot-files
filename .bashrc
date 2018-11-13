@@ -3,6 +3,9 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
   exec tmux
 fi
 
+#Disable software control flow
+stty -ixon
+
 # Look for aliases
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
