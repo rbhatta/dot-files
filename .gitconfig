@@ -1,3 +1,5 @@
 [user]
 	name = rbhatta
 	email = rohit@bhatta.io
+[color]
+	ui = auto
