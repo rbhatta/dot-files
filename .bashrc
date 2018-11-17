@@ -13,3 +13,6 @@ fi
 
 #Customize the prompt
 export PS1="\[\e[96m\]\u\[\e[00m\]@\h:\[\e[1;33m\]\w\[\e[00m\]$ " 
+
+#Default Editor
+export EDITOR='vim'
