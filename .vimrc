@@ -8,10 +8,12 @@ set shiftwidth=4
 set expandtab
 set encoding=utf-8
 
-set number        
-set ruler         
+set number
+set ruler
+
 highlight Comment ctermfg=green
 set backspace=indent,eol,start
 
 set scrolloff=999
 set autoindent
+set smartindent
