@@ -12,6 +12,7 @@ set number
 set ruler
 
 highlight Comment ctermfg=green
+set hlsearch
 set backspace=indent,eol,start
 
 set scrolloff=999
